@@ -6,10 +6,9 @@
         "preserveConstEnums": true,
         "sourceMap": true,
         "outDir": "./dist",
-        "target": "ES5",
-        "watch": true
+        "target": "ES5"
     },
     "files": [
-        "tfn.ts", "app.ts"
+        "./src/tfn.ts", "./src/example.ts"
     ]
 }
