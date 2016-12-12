@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Australian Tax File Number Validator</title>
+
+	<script src="./dist/tfn.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./dist/app.js" type="text/javascript" charset="utf-8"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+	
+	<br />
+	<h1 class="title">TFN Validator</h1>
+	<fieldset>
+		<legend class="heading">TFN examples</legend>
+
+		<form action="#">
+
+			<label class="label">TFN (8 Digits)</label>
+			<p class="control">
+			  <input class="input" type="number" name="tfn-8" placeholder="37118629" onKeyup="app.validate(this);">
+			  <span class="help is-danger is-hidden">Invalid TFN</span>
+			  <span class="help is-success is-hidden">Valid TFN</span>
+			</p>
+
+			<label class="label">TFN (9 Digits)</label>
+			<p class="control">
+			  <input class="input" type="number" name="tfn-9" placeholder="648188480" onKeyup="app.validate(this);">
+			  <span class="help is-danger is-hidden">Invalid TFN</span>
+			  <span class="help is-success is-hidden">Valid TFN</span>
+			</p>
+
+
+			<button class="button" type="reset">Reset</button>
+		</form>
+	</fieldset>	
+</div>
+</body>
+</html>

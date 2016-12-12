@@ -1,0 +1,27 @@
+{
+  "name": "tfn-validator",
+  "version": "1.0.0",
+  "description": "Australian tax file number validator",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jimmythecoder@github.com/jimmythecoder/tfn-validator.git"
+  },
+  "keywords": [
+    "tfn",
+    "ato",
+    "validator"
+  ],
+  "author": "James Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmythecoder/tfn-validator/issues"
+  },
+  "homepage": "https://github.com/jimmythecoder/tfn-validator#readme",
+  "devDependencies": {
+    "typescript": "^2.1.4"
+  }
+}

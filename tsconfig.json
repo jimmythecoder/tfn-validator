@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "target": "ES5",
+        "watch": true
+    },
+    "files": [
+        "tfn.ts", "app.ts"
+    ]
+}

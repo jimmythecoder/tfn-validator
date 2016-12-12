@@ -1,0 +1,19 @@
+fieldset {
+	padding: 1em;
+}
+
+legend {
+	padding: 1em;
+}
+
+input[type=number] {
+	width: 150px;
+}
+
+input[type=number].is-danger ~ .help.is-danger {
+	display: block !important;
+}
+
+input[type=number].is-success ~ .help.is-success {
+	display: block !important;
+}
