@@ -4,7 +4,8 @@
   "description": "Australian tax file number validator",
   "main": "index.html",
   "scripts": {
-    "test": "gulp test"
+    "start": "tsc -w",
+    "build": "tsc && uglifyjs dist/tfn.js -o dist/tfn.min.js --source-map dist/tfn.min.js.map"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/jimmythecoder/tfn-validator#readme",
   "devDependencies": {
-    "typescript": "^2.1.4"
+    "typescript": "^2.1.4",
+    "uglify-js": "^2.7.5"
   }
 }
